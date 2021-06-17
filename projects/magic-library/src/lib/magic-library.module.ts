@@ -7,7 +7,7 @@ import { MatButtonModule } from '@angular/material/button';
 import { PopupComponent } from './popup/popup.component';
 import { MatGridListModule } from '@angular/material/grid-list';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-
+import { MatListModule } from '@angular/material/list';
 @NgModule({
   declarations: [
     MagicLibraryComponent,
@@ -19,7 +19,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     MatDialogModule,
     MatGridListModule,
     BrowserAnimationsModule,
-    MatButtonModule
+    MatButtonModule,
+    MatListModule
   ],
   exports: [
     MagicLibraryComponent
