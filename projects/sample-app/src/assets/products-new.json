@@ -1,0 +1,84 @@
+{
+    "data": [
+        {
+            "wellId": 1,
+            "wellName": "Borewell Schlumberger",
+            "wellCode": "ABC-123",
+            "Cost": "32.99",
+            "location": "Pune, Maharashtra, India",
+            "description": "well dug by schlumberger",
+            "starRating": 1,
+            "ImageUrl": "assets/images/garden_cart.png"
+        },
+        {
+            "wellId": 2,
+            "wellName": "Borewell2 Schlumberger",
+            "wellCode": "ABC-124",
+            "Cost": "32.99",
+            "location": "Pune, Maharashtra, India",
+            "description": "well dug by schlumberger",
+            "starRating": 2,
+            "ImageUrl": "assets/images/saw.png"
+        },
+        {
+            "wellId": 3,
+            "wellName": "Borewell Schlumberger",
+            "wellCode": "ABC-123",
+            "Cost": "32.99",
+            "location": "Pune, Maharashtra, India",
+            "description": "well dug by schlumberger",
+            "starRating": 3,
+            "ImageUrl": "assets/images/garden_cart.png"
+        },
+        {
+            "wellId": 4,
+            "wellName": "Borewell Schlumberger",
+            "wellCode": "ABC-123",
+            "Cost": "32.99",
+            "location": "Pune, Maharashtra, India",
+            "description": "well dug by schlumberger",
+            "starRating": 4,
+            "ImageUrl": "assets/images/garden_cart.png"
+        },
+        {
+            "wellId": 5,
+            "wellName": "Borewell Schlumberger",
+            "wellCode": "ABC-123",
+            "Cost": "32.99",
+            "location": "Pune, Maharashtra, India",
+            "description": "well dug by schlumberger",
+            "starRating": 5,
+            "ImageUrl": "assets/images/garden_cart.png"
+        },
+        {
+            "wellId": 6,
+            "wellName": "Borewell Schlumberger",
+            "wellCode": "ABC-123",
+            "Cost": "32.99",
+            "location": "Pune, Maharashtra, India",
+            "description": "well dug by schlumberger",
+            "starRating": 2,
+            "ImageUrl": "assets/images/garden_cart.png"
+        },
+        {
+            "wellId": 7,
+            "wellName": "Borewell Schlumberger",
+            "wellCode": "ABC-123",
+            "Cost": "32.99",
+            "location": "Pune, Maharashtra, India",
+            "description": "well dug by schlumberger",
+            "starRating": 3,
+            "ImageUrl": "assets/images/garden_cart.png"
+        },
+        {
+            "wellId": 8,
+            "wellName": "Borewell Schlumberger",
+            "wellCode": "ABC-123",
+            "Cost": "32.99",
+            "location": "Pune, Maharashtra, India",
+            "description": "well dug by schlumberger",
+            "starRating": 4,
+            "ImageUrl": "assets/images/garden_cart.png"
+        }
+    ]
+}

@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import { MagicLibraryService } from './magic-library.service';
 
 @Component({
@@ -11,6 +11,8 @@ export class MagicLibraryComponent implements OnInit {
   constructor(private libraryService: MagicLibraryService) { }
 
   ngOnInit(): void {}
+
+  @Input() count: number = 0;
 
   onRequest(){
     console.log("CLicked!!");

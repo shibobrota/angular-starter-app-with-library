@@ -1,12 +1,10 @@
 export interface Product {
-    id:string;
-    code?:string;
-    name:string;
-    description:string;
-    price:number;
-    quantity:number;
-    inventoryStatus:string;
-    category:string;
-    image?:string;
-    rating:number;
+    wellId:string;
+    wellName:string;
+    wellCode:string;
+    Cost:string;
+    location:number;
+    description:number;
+    starRating:number;
+    ImageUrl:string;
 }
