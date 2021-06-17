@@ -1,6 +1,15 @@
 .pop-out {
     display:flex;
-    position: fixed;
-    left: 400px;
-    top: 200px;   
+    align-items: center;
+    flex-direction: row;
+}
+
+.section-base {
+    height: 100px;
+    width: 400px;
+    background-color: aliceblue;
+}
+
+.dialog-content {
+    display: flex;
 }
