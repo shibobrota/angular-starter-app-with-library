@@ -1,3 +1,4 @@
+<link href="https://unpkg.com/@angular/material/prebuilt-themes/indigo-pink.css" rel="stylesheet">
 <div class="container">
     <div class="rate">
         <input type="radio" id="star5" name="rate" value="5" />
@@ -14,5 +15,5 @@
     
     <!-- Taken From: https://codepen.io/hesguru/pen/BaybqXv -->
 
-    <button class="button" (click)="onRequest()">Submit</button>
+    <button mat-raised-button (click)="openDialog()">Submit</button>
 </div>

@@ -5,7 +5,7 @@ import { AppComponent } from './app.component';
 import { TableModule } from 'primeng/table';
 import { HttpClientModule } from '@angular/common/http';
 import { AppService } from './app.service';
-
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 @NgModule({
   declarations: [
     AppComponent
@@ -14,7 +14,8 @@ import { AppService } from './app.service';
     BrowserModule,
     MagicLibraryModule,
     TableModule,
-    HttpClientModule
+    HttpClientModule,
+    BrowserAnimationsModule,
   ],
   providers: [AppService],
   bootstrap: [AppComponent]
