@@ -5,6 +5,11 @@
   "projects": {
     "magic-library": {
       "projectType": "library",
+      "schematics": {
+        "@schematics/angular:component": {
+          "style": "scss"
+        }
+      },
       "root": "projects/magic-library",
       "sourceRoot": "projects/magic-library/src",
       "prefix": "sd",
