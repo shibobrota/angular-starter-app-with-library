@@ -16,7 +16,7 @@ export class MagicLibraryComponent implements OnInit {
 
   @Input() count: number = 0;
 
-  onRequest(){
+  makeRequest(){
     console.log("CLicked!!");
     this.libraryService.getRatings()
     .then(res => {console.log("Received Data:", res)} );
@@ -30,6 +30,8 @@ export class MagicLibraryComponent implements OnInit {
      // hasBackdrop: true,
      // backdropClass: '',
    });
+
+   this.makeRequest();
  }
 
 }
